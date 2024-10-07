@@ -7,8 +7,7 @@ while True:
       pos = py.mouse.get_pos()
       col = (0, 255, 255)
       py.draw.circle(
-        screen, col, pos, 20, 5
+        screen, col, pos, 21, 5
       )
       py.display.update() 
-      
       
